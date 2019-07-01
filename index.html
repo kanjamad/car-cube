@@ -17,7 +17,7 @@
     <div class="container">
         <div class="viewport">
             <div class="control left-arrow"><i class="fas fa-arrow-left"></i></div>
-            <div class="cube cube-1">
+            <div class="cube cube-1" data-toggle="modal" data-target="#login-signup">
                 <div class="face front"></div>
                 <div class="face back"></div>
                 <div class="face top"></div>
@@ -45,6 +45,59 @@
             <div class="control play-pause"><i class="fas fa-play"></i></div>
         </div>
     </div>
+
+
+     <!-- modal logIn-->
+     <div class="modal fade" id="login-signup" tabindex="-1" role="dialog">
+        <div class="modal-dialog " role="document">
+            <div class="modal-content pb-4 login-purple-pink">
+                <!-- modal header -->
+                <div class="modal-header">
+                    <h5 class="modal-title text-capitalize text-warning"> Ap Shopping</h5>
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span class="text-white" aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <!-- end of modal header -->
+
+                <!-- card singin -->
+                <div class="container">
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <img src="images/kanjamad.jpeg" class="card-img" alt="Kanjamad">
+                            <h1 class="card-heading">Kanjamad Bosel</h1>
+                            <p class="card-paragraph"><i class="fas fa-quote-left"></i>Born and grew up in Thailand Where I earned a science degree. Now I’m learning to code.👩‍💻<i class="fas fa-quote-right"></i></p>
+                            <ul class="card-icons">
+                                <li>
+                                    <a href="https://www.facebook.com/bkanjamad" class="card-icon-link">
+                                        <i class="card-icon fab fa-facebook-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/kanjamad-bosel/" class="card-icon-link">
+                                        <i class="card-icon fab fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/bkanjamad" class="card-icon-link">
+                                        <i class="card-icon fab fa-twitter-square"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/kanjamad/" class="card-icon-link">
+                                        <i class="card-icon fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <button class="card-btn"><a href="https://kanjamad.com/">more info</a></button>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of card singin -->
+            </div>
+        </div>
+    </div>
+<!-- end of modal logIn-->
 
     <script src="app.js"></script>
 </body>
